@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{17E4134A-F735-76AA-E958-343EFF46D8D9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OnlineVersion/OnlineGameBoss.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ConnectToServer.cs" Line="30" Column="1" />
+      <File FileName="Assets/Scripts/Management/GameBoss.cs" Line="60" Column="6" />
+      <File FileName="Assets/Scripts/Management/IntroBoss.cs" />
+      <File FileName="Assets/Scripts/CreateAndJoinRooms.cs" Line="16" Column="6" />
+      <File FileName="Assets/Scripts/Management/LocalIntro.cs" />
+      <File FileName="Assets/Scripts/Missle.cs" Line="58" Column="1" />
+      <File FileName="Assets/Scripts/SpawnPlayers.cs" Line="13" Column="72" />
+      <File FileName="Assets/Scripts/ShipMain.cs" Line="3" Column="19" />
+      <File FileName="Assets/Scripts/OnlineVersion/OnlineShipMain.cs" Line="89" Column="44" />
+      <File FileName="Assets/Scripts/OnlineVersion/OnlineGameBoss.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Astronomia" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9a8e40da-c181-4eab-8b0d-4b8b3dd32d35" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
