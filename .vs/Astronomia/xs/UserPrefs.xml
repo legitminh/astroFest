@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{17E4134A-F735-76AA-E958-343EFF46D8D9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OnlineVersion/OnlineGameBoss.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Buff.cs">
     <Files>
       <File FileName="Assets/Scripts/ConnectToServer.cs" Line="30" Column="1" />
-      <File FileName="Assets/Scripts/Management/GameBoss.cs" Line="60" Column="6" />
+      <File FileName="Assets/Scripts/Management/GameBoss.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Management/IntroBoss.cs" />
-      <File FileName="Assets/Scripts/CreateAndJoinRooms.cs" Line="16" Column="6" />
-      <File FileName="Assets/Scripts/Management/LocalIntro.cs" />
-      <File FileName="Assets/Scripts/Missle.cs" Line="58" Column="1" />
-      <File FileName="Assets/Scripts/SpawnPlayers.cs" Line="13" Column="72" />
-      <File FileName="Assets/Scripts/ShipMain.cs" Line="3" Column="19" />
-      <File FileName="Assets/Scripts/OnlineVersion/OnlineShipMain.cs" Line="89" Column="44" />
-      <File FileName="Assets/Scripts/OnlineVersion/OnlineGameBoss.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/CreateAndJoinRooms.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/Management/LocalIntro.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Missle.cs" />
+      <File FileName="Assets/Scripts/ShipMain.cs" Line="2" Column="1" />
+      <File FileName="Assets/Scripts/OnlineVersion(deprecate)/OnlineGameBoss.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Netcode/OnlinePlayerMovement.cs" Line="63" Column="38" />
+      <File FileName="Assets/Scripts/Netcode/NetCodeManager.cs" Line="13" Column="14" />
+      <File FileName="Assets/Scripts/OnlineVersion(deprecate)/SpawnPlayers.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/BuffMain.cs" Line="15" Column="35" />
+      <File FileName="Assets/Scripts/OnlineVersion(deprecate)/DPCOnlineShipMain.cs" Line="30" Column="29" />
+      <File FileName="Assets/Scripts/Buff.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9a8e40da-c181-4eab-8b0d-4b8b3dd32d35" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="09539ad3-e596-4ff6-84ed-200a170527ee" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
