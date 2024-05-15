@@ -2,7 +2,7 @@
   "Nodes": [
     {
       "Annotation": "all_tundra_nodes",
-      "Action": "",
+      "DisplayName": null,
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
@@ -10,47 +10,55 @@
         2,
         3
       ],
-      "AllowUnexpectedOutput": true,
+      "OverwriteOutputs": false,
       "DebugActionIndex": 0
     },
     {
       "Annotation": "ScriptAssemblies",
-      "Action": "",
+      "DisplayName": null,
       "Inputs": [],
       "Outputs": [],
-      "AllowUnexpectedOutput": true,
+      "OverwriteOutputs": false,
       "DebugActionIndex": 1
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
-      "Action": "\"/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.Unsafe.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/PhotonChat.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/PhotonRealtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/PhotonUnityNetworking.Demos.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/PhotonUnityNetworking.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/PhotonUnityNetworking.Utilities.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Burst.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Device.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/UnityEngine.UI.dll\" -s=\"/Applications/Unity/PlaybackEngines/WebGLSupport/Managed\" -s=\"/Applications/Unity/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime\" -s=\"/Users/Minh/games/Unity/Astronomia/Assets/Photon/PhotonLibs/netstandard2.0\" -s=\"/Users/Minh/games/Unity/Astronomia/Assets/Photon/PhotonLibs/WebSocket\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.AI.Navigation.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Burst.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Collections.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.Ngo1.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.Common.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.Initialization.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricEvents.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricTestData.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricTypes.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStats.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsReporting.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Netcode.Components.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Netcode.Runtime.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Networking.Transport.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Profiling.Core.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Authentication.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Device.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Multiplay.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Multiplay.Sqp.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Services.Wire.Internal.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies/unity-websocket-sharp.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.Unsafe.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll\" -a=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.services.wire@1.2.3/Plugins/websocket-sharp.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/WebGLSupport/Managed\" -s=\"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/ScriptAssemblies\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.8.13\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime\" -s=\"/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.services.wire@1.2.3/Plugins\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
-        "/Applications/Unity/Unity.app/Contents/Tools/netcorerun/netcorerun",
-        "/Applications/Unity/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
-        "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
-        "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
-        "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
-        "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
-        "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.Unsafe.dll",
-        "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
-        "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll",
-        "Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
-        "Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
+        "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
+        "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
         "Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll",
-        "Library/ScriptAssemblies/PhotonChat.dll",
-        "Library/ScriptAssemblies/PhotonRealtime.dll",
-        "Library/ScriptAssemblies/PhotonUnityNetworking.Demos.dll",
-        "Library/ScriptAssemblies/PhotonUnityNetworking.dll",
-        "Library/ScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
         "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll",
         "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll",
         "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll",
         "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll",
         "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
         "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Collections.dll",
         "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll",
         "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.Ngo1.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Common.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Initialization.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricEvents.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricTestData.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricTypes.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStats.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsReporting.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll",
+        "Library/ScriptAssemblies/Unity.Netcode.Components.dll",
+        "Library/ScriptAssemblies/Unity.Netcode.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.Networking.Transport.dll",
+        "Library/ScriptAssemblies/Unity.Profiling.Core.dll",
+        "Library/ScriptAssemblies/Unity.Services.Authentication.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Device.dll",
@@ -63,129 +71,148 @@
         "Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Threading.dll",
+        "Library/ScriptAssemblies/Unity.Services.Multiplay.dll",
+        "Library/ScriptAssemblies/Unity.Services.Multiplay.Sqp.dll",
+        "Library/ScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll",
+        "Library/ScriptAssemblies/Unity.Services.Wire.Internal.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
-        "Library/ScriptAssemblies/UnityEngine.UI.dll"
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/ScriptAssemblies/unity-websocket-sharp.dll",
+        "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.Unsafe.dll",
+        "Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
+        "Library/PackageCache/com.unity.services.wire@1.2.3/Plugins/websocket-sharp.dll"
       ],
       "Outputs": [
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
       "AllowUnexpectedOutput": true,
+      "Env": [],
       "DebugActionIndex": 2
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
-      "Action": "",
+      "DisplayName": null,
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
         1,
         2
       ],
-      "AllowUnexpectedOutput": true,
+      "OverwriteOutputs": false,
       "DebugActionIndex": 3
     }
   ],
   "FileSignatures": [
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
     },
     {
-      "File": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
     },
     {
       "File": "Library/Bee/2000b0aESkipCompile-inputdata.json"
@@ -193,25 +220,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
-    },
-    {
-      "File": "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
-    },
-    {
-      "File": "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
-    },
-    {
-      "File": "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
-    },
-    {
-      "File": "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.Unsafe.dll"
-    },
-    {
-      "File": "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
-    },
-    {
-      "File": "/Users/Minh/games/Unity/Astronomia/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+      "File": "/Users/Minh/games/Unity/Astronomia/getconf"
     },
     {
       "File": "Assets/csc.rsp"
@@ -220,13 +229,46 @@
       "File": "Assets/mcs.rsp"
     },
     {
-      "File": "Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
-    },
-    {
-      "File": "Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
-    },
-    {
       "File": "Library/Bee/2000b0aESkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.13/Unity.Burst.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.services.wire@1.2.3/Plugins/websocket-sharp.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
@@ -235,19 +277,7 @@
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
     },
     {
-      "File": "Library/ScriptAssemblies/PhotonChat.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/PhotonRealtime.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/PhotonUnityNetworking.Demos.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/PhotonUnityNetworking.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/PhotonUnityNetworking.Utilities.dll"
+      "File": "Library/ScriptAssemblies/unity-websocket-sharp.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll"
@@ -265,13 +295,76 @@
       "File": "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Collections.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.Ngo1.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Common.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Initialization.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricEvents.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricTestData.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.MetricTypes.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStats.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetStatsReporting.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Netcode.Components.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Netcode.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Networking.Transport.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Profiling.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Services.Authentication.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll"
@@ -310,6 +403,18 @@
       "File": "Library/ScriptAssemblies/Unity.Services.Core.Threading.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.Services.Multiplay.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Services.Multiplay.Sqp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Services.Wire.Internal.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
     },
     {
@@ -324,7 +429,7 @@
   ],
   "GlobSignatures": [
     {
-      "Path": "/Applications/Unity/Unity.app/Contents/Tools/BuildPipeline"
+      "Path": "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/BuildPipeline"
     }
   ],
   "ContentDigestExtensions": [
@@ -341,6 +446,7 @@
   "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
   "DigestCacheFileName": "Library/Bee/tundra.digestcache",
   "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
@@ -353,5 +459,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/2000b0aESkipCompile.dag.json",
+  "PayloadsFile": "/Users/Minh/games/Unity/Astronomia/Library/Bee/2000b0aESkipCompile.dag.payloads",
   "RelativePathToRoot": "../.."
 }
